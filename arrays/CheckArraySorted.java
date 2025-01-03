@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class CheckArraySorted {
 
-
     public static boolean Check(int[] arr){
         for(int i=1; i<arr.length; i++){
             if(arr[i]< arr[i-1]){
