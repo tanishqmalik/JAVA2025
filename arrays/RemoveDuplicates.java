@@ -57,34 +57,42 @@ import java.util.Scanner;
 // }
 
 
+// public class RemoveDuplicates{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         HashSet <Integer> set = new HashSet<>();
+
+//         int limit = sc.nextInt();
+
+//         int arr[] = new int[limit];
+
+//         for(int i=0; i<limit; i++){
+//             arr[i] = sc.nextInt();
+//         }
+
+//         for(int i=0; i<arr.length; i++){
+//             set.add(arr[i]);
+//         }
+
+//         int k = set.size();
+//         int j=0;
+
+//         for(int x : set){
+//             arr[j] = x;
+//             j++;
+//         }
+
+//         for(int i=0; i<k; i++){
+//             System.out.println(arr[i]);
+//         }
+//     }
+// }
+
+
+
 public class RemoveDuplicates{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        HashSet <Integer> set = new HashSet<>();
-
-        int limit = sc.nextInt();
-
-        int arr[] = new int[limit];
-
-        for(int i=0; i<limit; i++){
-            arr[i] = sc.nextInt();
-        }
-
-        for(int i=0; i<arr.length; i++){
-            set.add(arr[i]);
-        }
-
-        int k = set.size();
-        int j=0;
-
-        for(int x : set){
-            arr[j] = x;
-            j++;
-        }
-
-        for(int i=0; i<k; i++){
-            System.out.println(arr[i]);
-        }
+        Scanner sc
     }
 }
