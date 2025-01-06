@@ -91,8 +91,29 @@ import java.util.Scanner;
 
 
 
-// public class RemoveDuplicates{
-//     public static void main(String[] args) {
-//         Scanner sc 
-//     }
-// }
+public class RemoveDuplicates{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int arr[] = {1,1,3,2,3};
+
+        HashSet <Integer> set = new HashSet<>();
+
+        for(int i=0; i<arr.length; i++){
+            set.add(arr[i]);
+        }
+
+        int k=set.size();
+        int j=0;
+
+
+        for(int x: set){
+            arr[j] = x;
+            j++;
+        }
+
+        for(int i =0; i<k; i++){
+            System.out.println(arr[i]);
+        }
+    }
+}

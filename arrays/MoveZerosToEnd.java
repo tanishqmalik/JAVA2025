@@ -1,9 +1,9 @@
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 
-//     public static void main(String[] args) {
 //         ArrayList <Integer> list = new ArrayList<>();
         
 //         Scanner sc = new Scanner(System.in);
@@ -112,6 +112,49 @@ import java.util.Scanner;
 //         }
 
 //         for(int i=0; i<limit; i++){
+//             System.out.println(arr[i]);
+//         }
+        
+//     }
+// }
+
+
+
+// 6 jan
+
+// public class MoveZerosToEnd {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         HashSet <Integer> set = new HashSet<>();
+
+//         ArrayList <Integer> list = new ArrayList<>();
+
+//         int limit = sc.nextInt();
+
+//         int arr[] = new int[limit];
+
+//         for(int i=0; i<limit; i++){
+//             arr[i]=sc.nextInt();
+//         }
+
+//         for(int i=0; i<arr.length; i++){
+//             if(arr[i]!=0){
+//                 list.add(arr[i]);
+//             }
+//         }
+
+//         int k = list.size();
+
+//         for(int i=0; i<k; i++){
+//             arr[i] = list.get(i);
+//         }
+
+//         for(int i=k; i<limit; i++){
+//             arr[i]=0;
+//         }
+
+//         for(int i=0; i<arr.length; i++){
 //             System.out.println(arr[i]);
 //         }
         
