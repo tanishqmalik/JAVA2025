@@ -1,10 +1,4 @@
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Scanner;
-
-
-//         ArrayList <Integer> list = new ArrayList<>();
         
 //         Scanner sc = new Scanner(System.in);
 
@@ -158,5 +152,49 @@ import java.util.Scanner;
 //             System.out.println(arr[i]);
 //         }
         
+//     }
+// }
+
+// 9 jan 0 se pehle vaale saare sorted //made task by own   bus bubble sort lgado k tak
+
+// import java.util.ArrayList;
+
+// public class MoveZerosToEnd {
+//     public static void main(String[] args) {
+//         int arr[] = {0,3,3,43,1,0,0,2,2,0,0,4,4};
+
+//         ArrayList <Integer> list = new ArrayList<>();
+
+//         for(int i=0; i<arr.length; i++){
+//             if(arr[i]!=0){
+//                 list.add(arr[i]);
+//             }
+//         }
+
+//         int k = list.size();
+
+//         for(int i=0; i<k; i++){
+//             arr[i]=list.get(i);
+//         }
+
+//         for(int i=0; i<k; i++){
+//             for(int j=i+1; j<k; j++){
+//                 if(arr[i]>arr[j]){
+//                     int temp = arr[i];
+//                     arr[i]=arr[j];
+//                     arr[j] = temp;
+//                 }
+//             }
+//         }
+
+//         for(int i=k; i<arr.length; i++){
+//             arr[i] = 0;
+//         }
+
+//         for(int i=0; i<arr.length; i++){
+//             System.out.println(arr[i]);
+//         }
+
+
 //     }
 // }

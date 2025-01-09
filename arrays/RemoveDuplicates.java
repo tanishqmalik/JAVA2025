@@ -95,7 +95,7 @@ public class RemoveDuplicates{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int arr[] = {1,1,3,2,3};
+        int arr[] = {1,1,3,2,3,3,3,3,4,4,4,4,1,1,1};
 
         HashSet <Integer> set = new HashSet<>();
 
@@ -115,5 +115,7 @@ public class RemoveDuplicates{
         for(int i =0; i<k; i++){
             System.out.println(arr[i]);
         }
+
+        // System.out.println(j + " "+ arr.length);
     }
 }
