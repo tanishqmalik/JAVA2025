@@ -120,7 +120,6 @@
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 
-//         HashSet <Integer> set = new HashSet<>();
 
 //         ArrayList <Integer> list = new ArrayList<>();
 
