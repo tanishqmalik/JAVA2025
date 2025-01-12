@@ -1,18 +1,34 @@
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-// package strings;
+// // package strings;
+
+// public class reverse {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         String str = sc.nextLine();
+
+//         for(int i=str.length()-1; i>=0; i--){
+//             System.out.print(str.charAt(i));
+//         }
+//         System.err.println();
+
+//     }
+// }
 
 public class reverse {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        String str = "tanishq";
+        String r = "";
+        char ch;
 
-        String str = sc.nextLine();
+        for(int i=0; i<str.length(); i++){
+            ch = str.charAt(i);
 
-        for(int i=str.length()-1; i>=0; i--){
-            System.out.print(str.charAt(i));
+            r= ch + r;
         }
-        System.err.println();
 
+        System.out.println(r);
     }
 }
