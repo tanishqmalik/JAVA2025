@@ -26,7 +26,7 @@ public class reverse {
         for(int i=0; i<str.length(); i++){
             ch = str.charAt(i);
 
-            r= ch + r;
+            r= r + ch;
         }
 
         System.out.println(r);
