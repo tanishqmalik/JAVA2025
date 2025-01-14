@@ -1,9 +1,9 @@
 public class reverseWordsInStrings {
     public static void main(String[] args) {
 
-        String str = "this is me";
+        String str = "   this is   me   ";
 
-        String spitString[] = str.split(" ");
+        String spitString[] = str.trim().split("\\s+");
         
         StringBuilder result = new StringBuilder();
 
