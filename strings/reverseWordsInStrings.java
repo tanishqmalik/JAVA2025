@@ -25,23 +25,23 @@
 
 
 
-public class reverseWordsInStrings {
-    public static void main(String[] args) {
-        String s = "   this is   me   ";
+// public class reverseWordsInStrings {
+//     public static void main(String[] args) {
+//         String s = "   this is   me   ";
         
 
-        String SplitArray[] = s.split("\\s+");
+//         String SplitArray[] = s.split("\\s+");
 
-        StringBuilder result = new StringBuilder();
+//         StringBuilder result = new StringBuilder();
 
-        for(int i=SplitArray.length-1; i>=0; i--){
-            result.append(SplitArray[i]);
+//         for(int i=SplitArray.length-1; i>=0; i--){
+//             result.append(SplitArray[i]);
 
-            if(i!=0){
-                result.append(" ");
-            }
-        }
+//             if(i!=0){
+//                 result.append(" ");
+//             }
+//         }
 
-        System.out.println(result);
-    }
-}
+//         System.out.println(result);
+//     }
+// }
