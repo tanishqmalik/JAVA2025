@@ -1,8 +1,8 @@
 
-import java.util.ArrayList;
-import java.util.Collections;
+// import java.lang.reflect.Array;
+// import java.util.ArrayList;
 
-// 345 leetcode
+
 
 // import java.util.*;
 
@@ -60,21 +60,68 @@ import java.util.Collections;
 
 // Output: "AceCreIm"
 
+// public class ReverseVowelsOfaString {
+//     public static void main(String[] args) {
+//         String str = "leetcode";
+//         // String str = "IceCreAm";
+        
+
+//         char vowels[] = {'a', 'e', 'i', 'o', 'u', 'A', 'E' , 'I', 'O', 'U'};
+
+//         ArrayList <Character> list = new ArrayList<>();
+
+
+//         for(int i=0; i<str.length(); i++){
+//             for(int j=0; j<vowels.length; j++){
+//                 if(str.charAt(i)==vowels[j]){
+                    
+//                     list.add(str.charAt(i));
+//                 }
+//             }
+//         }
+
+//         Collections.reverse(list);
+
+//         StringBuilder result = new StringBuilder(str);
+
+//         // for(int i=0; i<list.size(); i++){
+//         //     System.out.println(list.get(i));
+//         // }
+
+
+//         int vowelIndex =0;
+//         for(int i=0; i<result.length(); i++){
+//             for(int j=0; j<vowels.length; j++){
+//                 if(result.charAt(i)==vowels[j]){
+//                     result.setCharAt(i, list.get(vowelIndex++));
+//                     break;
+//                 }
+//             }
+//         }
+
+//         String str2 =  result.toString();
+
+//         System.out.println(str2);
+
+//     }
+    
+// }
+
+
+// import java.lang.reflect.Array;
+import java.util.*;
+
 public class ReverseVowelsOfaString {
     public static void main(String[] args) {
-        String str = "leetcode";
-        // String str = "IceCreAm";
-        
+        String str = "IceCreAm";
 
         char vowels[] = {'a', 'e', 'i', 'o', 'u', 'A', 'E' , 'I', 'O', 'U'};
 
         ArrayList <Character> list = new ArrayList<>();
 
-
         for(int i=0; i<str.length(); i++){
             for(int j=0; j<vowels.length; j++){
                 if(str.charAt(i)==vowels[j]){
-                    
                     list.add(str.charAt(i));
                 }
             }
@@ -84,25 +131,19 @@ public class ReverseVowelsOfaString {
 
         StringBuilder result = new StringBuilder(str);
 
-        // for(int i=0; i<list.size(); i++){
-        //     System.out.println(list.get(i));
-        // }
+        int vowelIndex=0;
 
 
-        int vowelIndex =0;
         for(int i=0; i<result.length(); i++){
             for(int j=0; j<vowels.length; j++){
-                if(result.charAt(i)==vowels[j]){
-                    result.setCharAt(i, list.get(vowelIndex++));
-                    break;
+                if(str.charAt(i)==vowels[j]){
+                   result.setCharAt(i, list.get(vowelIndex++));
                 }
             }
         }
 
-        String str2 =  result.toString();
+        System.out.println(result);
 
-        System.out.println(str2);
 
     }
-    
 }

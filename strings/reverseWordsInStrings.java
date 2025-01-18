@@ -45,3 +45,26 @@
 //         System.out.println(result);
 //     }
 // }
+
+
+public class reverseWordsInStrings {
+    public static void main(String[] args) {
+        String s = "   this is   me   ";
+
+        String SplitArray[] = s.split("\\s+");
+
+        StringBuilder result = new StringBuilder();
+
+        for(int i=SplitArray.length-1; i>=0; i--){
+            result.append(SplitArray[i]);
+
+            if(i!=0){
+                result.append(" ");
+            }
+        }
+
+        String result1 = result.toString();
+
+        System.out.println(result1);
+    }
+}
