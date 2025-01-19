@@ -8,7 +8,6 @@ public class plusone {
     public static void main(String[] args) {
         int arr[] = {1,2,3};
 
-
         ArrayList <Integer> list = new ArrayList<>();
 
         int number = 0;
@@ -17,10 +16,7 @@ public class plusone {
             number = number *10 + digit;
         }
 
-        // System.out.println(number);
-
         number = number+1;
-
 
         while(number>0){
             int digit = number%10;
@@ -40,15 +36,10 @@ public class plusone {
             i++;
         }
 
-        // for(int x : arr){
-        //     System.out.println(x);
-        // }
-
-        
-
-        
-
-        // System.out.println(number);
+        for(int x : result){
+            System.out.print(x+" ");
+        }
+        System.out.println();
 
     }
 }
