@@ -73,7 +73,8 @@
 // 19 jan
 public class reverseWordsInStrings {
     public static void main(String[] args) {
-        String s = "   this is   me   ";
+        // String s = "   this is   me   ";
+        // String s = "This is decent";
 
         String splitArray[] = s.split("\\s+");
 
